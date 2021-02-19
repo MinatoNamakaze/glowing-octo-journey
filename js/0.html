@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
+	<title>JS Univers</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+
+
+	<div id="greetings_wrapper">
+		<div id="greetings" class="hidden">
+			<div id="greet_msg"></div>
+			<button id="greet_other_name">Ой а кто это?</button>
+		</div>
+		<div id="greetings_enter_name">
+			<form action="" method="post">
+				<label for="name">
+					Представься, тебя нет в списке.
+					<input type="text" name="_name" id="greet_name">
+				</label>
+				<input type="submit" value="Подтвердить" id="greet_submit">
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div id="about_JavaScript">JavaScript <br> Благодаря своей гибкости используется в браузере, на серверах, в мобильных приложениях,
+	 на десктопе и практически во всех видах программирования.
+	 Удобный синтаксис позволяет легко писать на нём, а высокая производительность делает его
+	 отличным выбором для решения любых задач - от небольших магазинов до огромных highload проектов.
+	 JavaScript по праву является самым популярным в мире языком. На каждом сайте есть браузерный JavaScript,
+	 а JavaScript на сервере используется такими крупными корпорациями,
+	 как Amazon, Yahoo, HP, NASA, Walmart и многие другие.</div>
+	<div id="triangle" class="part_block">
+		Введите высоту и основание треугольника
+		<form action="" method="post" autocomplete="off">
+			<label for="height">
+				Высота:
+				<input id='height' type='number'>
+			</label><br>
+			<label for="base">
+				Основание:
+				<input id='base' type='number'>
+			</label><br>
+			<input type="submit" id="triangle_submit" value="Посчитать площадь">
+		</form>
+		<div id="triangle_area" class="result_area"></div>
+	</div>
+	<div id="stings" class="part_block part_block_right">
+		Введите 2 строки:
+		<form action="" method="post" autocomplete="off">
+			<input type="text" id="str1"><br>
+			<input type="text" id="str2"><br>
+			<input type="submit" value="Сравнить" id="strCompareButton">
+		</form>
+		<div id="strres" class="result_area result_area_right"></div>
+	</div>
+	<div id="array" class="part_block">
+		Введите массив чисел через пробел
+		<form action="" method="post" autocomplete="off">
+			<input type="text" id="arr" value="1 2 3 4 5">
+			<input type="submit" id="arrSubm" value="Найти">
+		</form>
+		Максимальный элемент:
+		<div class="result_area" id="arrRes1"></div>
+		Минимальный элемент:
+		<div class="result_area" id="arrRes2"></div>
+	</div>
+	<div id="timer" class="part_block part_block_right">
+		<div id="timerDisplay" class="result_area_right">00:00</div>
+		<button id="timerStart">Start</button>
+		<button id="timerStop">Stop</button>
+		<button id="timerReset">Reset</button>
+	</div>
+</body>
+</html>

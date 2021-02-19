@@ -1,0 +1,90 @@
+body{
+	font-family: 'Lobster', cursive;
+	background-color: black;
+	color: white;
+}
+
+#about_JavaScript{
+	font-size: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+
+#greetings_wrapper {
+	height: 1em;
+	padding: 1em;
+}
+
+#greetings{
+	font-size: 1.5em;
+	text-align: right;
+}
+
+#greetings_enter_name{
+	text-align: right;
+	align-content: end;
+}
+
+#greet_name {
+	margin-left: 1em;
+}
+
+.part_block {
+	padding: 5%;
+	width: 80%;
+	margin-top: 1em;
+	background: linear-gradient(45deg, #5c0dac, orange);
+	min-height: 15vh;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.part_block_right {
+	text-align: right;
+	align-content: end;
+	background: linear-gradient(45deg, orange,#5c0dac);
+}
+
+.result_area{
+	margin: 0.5em;
+	height: 1.5em;
+	width: 10em;
+	background-color: #fff;
+	border: 1px solid black;
+	border-radius: 0.25em;
+	text-align: right;
+	padding-right: 0.5em;
+}
+
+.result_area_right {
+	position: absolute;
+	right: 10%;
+}
+
+
+#strres {
+	width: 15em;
+}
+
+#timerDisplay {
+	font-size: 3em;
+	width: 3.3em;
+	height: 1em;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 0.1em;
+	padding-right: 0.2em;
+
+	font-family: Consolas
+}
+
+#timerStart {
+	margin-top: 4em;
+}
